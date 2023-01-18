@@ -117,7 +117,7 @@ function CalculerTotal() {
     //Calculer les quantités total
    QteTotal = panier.pommes + panier.poires + panier.prunes
 
-        //Calculer le poids total
+    //Calculer le poids total
     PoidsTotal = PoidsPommes + PoidsPoires + PoidsPrunes;
 
     //Calculer le prix total
@@ -137,7 +137,8 @@ function CalculerTotal() {
         //Calculer le poids total
         PoidsTotal = document.getElementById("poidsPrunes").value + PoidsTotal;
 
-
+//On pourrait fair une fonction qui incrémente, une fonction qui calcul le poids/prix/total
+et une qui fait l'affichage
 
 
 
