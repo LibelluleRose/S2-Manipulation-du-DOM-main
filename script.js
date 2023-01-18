@@ -10,7 +10,7 @@ const poids = {
     poires: 12,
     prunes: 15,
 }
-
+//la constante prix est un objet avec trois propriétés : pommes, poires et prunes
 const prix = {
     pommes: 13.25,
     poires: 20.00,
@@ -146,9 +146,13 @@ et une qui fait l'affichage
      */
 }
 
-
 /*
+//Pour que la fonction fonctionne, il faut modifier le html et le mettre AjouterSac('Pommes')
+//
 function AjouterSac(fruit){
     panier.fruit = panier.fruit + 1;
-    document.querySelector(fruit).textContent = panier.fruit;
-}*/
+    document.querySelector("#qte" + fruit).textContent = panier.fruit;
+
+    //On peut pas envoyer la variable dans la propriété de l'objet.
+}
+*/
